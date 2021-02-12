@@ -1,0 +1,53 @@
+.pessoas {
+    padding-top    : 3rem;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+}
+
+.pessoa {
+    display       : flex;
+    flex-direction: column;
+}
+
+.pessoa__imagem {
+    width              : 300px;
+    height             : 300px;
+    margin             : 0 auto;
+    background-repeat  : no-repeat;
+    background-position: center;
+}
+
+.pessoa:hover .pessoa__nome {
+    font-size: 2.1rem;
+}
+
+.pessoa:hover {
+    border: 1px solid #c78c19;
+}
+
+.pessoa__nome {
+    margin     : 1rem 0;
+    font-family: Pacifico, cursive;
+    color      : #8d0606;
+    font-size  : 2rem;
+}
+
+.pessoa__funcao {
+    text-transform: lowercase;
+    color         : #595959;
+    font-size     : 1.25rem;
+}
+
+.pessoa__imagem--roberta {
+    background-image: url(../img/pessoas/roberta.jpg);
+}
+
+.pessoa__imagem--marcela {
+    background-image: url(../img/pessoas/marcela.jpg);
+}
+
+.pessoa__imagem--andreia {
+    background-image: url(../img/pessoas/andreia.jpg);
+}
